@@ -1,8 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/header';
+import Banner from './components/main';
+import Footer from './components/footer';
+import './css/main.css';
+
 
 function App() {
   return (
+    <div className="body"> 
+      <Header/>
+      <Banner/>
+      <footer/>
+    </div>
+
+/*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -26,6 +38,8 @@ function App() {
         </a>
       </header>
     </div>
+*/
+
   );
 }
 
