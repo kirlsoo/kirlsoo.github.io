@@ -4,7 +4,7 @@ Secondary (30%) $baby-powder: #fdfff7ff;
 Accent color (10%) $pacific-blue: #22aed1ff;
 */
 .Nav{
-  background:#4A586D;
+  background:#22aed1ff;
   height:50px;
   display: flex;
   justify-content: space-between;
