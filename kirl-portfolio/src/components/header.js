@@ -1,21 +1,16 @@
 import React from 'react';
 
+
 const Header = () => {
 	return(
-		<div>
-			<nav>
-				<ul>
-					<li>
-						<a href ="#">Home</a>
-					</li>
-					<li>
-						<a href ="#">Details</a>
-					</li>
-					<li>
-						<a href ="#">Like</a>
-					</li>
-				</ul>
-			</nav>
+		<div className="banner-text">
+			<div className ="title">
+				<h1>Kristen</h1>
+				<h1>Luciano</h1>
+			</div>
+			<div className="sub-title">
+				Software Developer
+			</div>
 		</div>
 	);
 }

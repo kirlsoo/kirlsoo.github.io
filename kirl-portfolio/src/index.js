@@ -1,3 +1,7 @@
+//kirl-portfolio by Kristen Luciano
+//kristenluciano.com
+//Started June 29,2021
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

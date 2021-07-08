@@ -2,13 +2,8 @@ import React from 'react';
 
 const Banner = () => {
 	return(
-		<div className="banner">
-			<div className ="title">
-				Kristen Luciano
-			</div>
-			<div className="sub-title">
-				Developer
-			</div>
+		<div>
+			<h1>WELCOME TO MY SITE!</h1>
 		</div>
 	);
 }
