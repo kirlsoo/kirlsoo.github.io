@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import {MenuItems} from "./menuItems";
 import '../../css/navbar.css';
 import { Button } from '@material-ui/core';
-import {FaBars} from 'react-icons/fa'
 import '@fontsource/roboto';
 import '../../images/KL_logo.png';
 
