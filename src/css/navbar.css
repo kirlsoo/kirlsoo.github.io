@@ -4,12 +4,16 @@ Secondary (30%) $baby-powder: #fdfff7ff;
 Accent color (10%) $pacific-blue: #22aed1ff;
 */
 .Nav{
-  background:#4A586D;
+  background:#4a586dff;
+  width:100%;
   height:50px;
   display: flex;
   justify-content: space-between;
   padding: 0.5px;
   margin: 1px;
+  position:fixed;
+  right:0;
+  top:0;
   border-bottom:1px solid #fdfff7ff ;
 }
 .Logo{
