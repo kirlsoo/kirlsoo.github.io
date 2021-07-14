@@ -1,18 +1,23 @@
 import './App.css';
-import Header from './components/header';
+import Header from './components/Header/header';
 import NavBar from './components/Navbar/navbar';
+import AboutMe from './components/About/aboutme';
 import Footer from './components/footer';
-import './css/main.css';
+
+
 
 //Adding material UI: import { Button } from '@material-ui/core';
 
 
 function App() {
   return (
-    <div className="body"> 
+    <div className="app"> 
       <NavBar/>
-      <Header/> 
-      <Footer/>
+      <div className="sections">
+        <Header/> 
+        <AboutMe/>
+        <Footer/>
+      </div>
     </div>
   );
 }

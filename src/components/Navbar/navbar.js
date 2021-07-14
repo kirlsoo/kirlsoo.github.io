@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import '../../css/navbar.css';
-import { Button } from '@material-ui/core';
 import '@fontsource/roboto';
 import '../../images/KL_logo.png';
 
@@ -9,26 +8,29 @@ class NavBar extends Component {
 	render(){
 		return(
 			<>
-			<nav className="Nav">
-				<p className="Logo" to="/">
-					<Button>
+			<div className="Nav">
+				<div className="wrapper">
+					<div className="left" to="/">
+						<a href="#header">
 						<img className="Logo-image" alt="KristenLuciano.com logo"></img>
-						KristenLuciano
-					</Button>
-				</p>
-				<p className="Bars" />
-				<ul className="NavMenu">
-					<li className="NavLink"  to="/about" activeStyle>
-					About Me
-					</li>
-					<li className="NavLink"  to="/about" activeStyle>
-					Contact Me
-					</li>
-					<li className="NavLink"  to="/about" activeStyle>
-					Socials
-					</li>
-				</ul>
-			</nav>
+						</a>
+					</div>
+					<div className="right">
+						<ul className="NavMenu">
+							<li  activeStyle>
+								<a className="NavLink" href="#about">About Me</a>
+							</li>
+							<li  activeStyle>
+								<a className="NavLink" href="#about">Contact Me</a>
+							</li>
+							<li  activeStyle>
+								<a className="NavLink" href="#social">Socials</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
 			</>
 		);
 	}
@@ -38,6 +40,12 @@ export default NavBar;
 
 //Material UI Appbar
 /*
+
+
+						<Button>
+							<img className="Logo-image" alt="KristenLuciano.com logo"></img>
+							KristenLuciano
+						</Button>
 		<AppBar className="navbar" position="static">
 		  <Toolbar>
 		  	<ul className="navbar-options">
