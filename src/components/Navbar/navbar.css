@@ -1,0 +1,145 @@
+/*color palette
+Main (60%) $black-coral: #4a586dff;
+Secondary (30%) $baby-powder: #fdfff7ff;
+Accent color (10%) $pacific-blue: #22aed1ff;
+*/
+.Nav{
+  background-color:#2098d0;
+  width:100%;
+  height:60px;
+  position:fixed;
+  top:0;
+  border-bottom:1px solid #fdfff7ff ;
+  z-index: 2;
+}
+
+
+.Nav .wrapper {
+  height: 60px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Nav .wrapper .right{
+  display: flex;
+  right:24px;
+  justify-content: space-between;
+}
+
+.Logo-image{
+  display:flex;
+  align-items:center;
+  content: url(../../images/KL_logo.png);
+  width: 45px; 
+  height: 45px; 
+  margin: 0;
+  padding: 2px;
+}
+
+.NavMenu{
+  display:flex;
+  align-items:center;
+  margin-right:24px;
+}
+
+a.NavLink {
+  color:  #fdfff7ff;
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+  padding:0 1rem;
+  height:100%;
+  cursor:pointer;
+  text-align: center;
+}
+a.NavLink:hover{
+  color:#15cdfc;
+}
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+.NavbarItems{
+  position: sticky;
+    top: 20px;
+    z-index: 1;
+	/*background-color: #4A586D !important;
+	opacity: 75%;
+  height:80px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size:1.2rem;
+}
+
+.navbar-logo{
+  color: #fff;
+  justify-self: safe left;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-menu{
+  display:grid;
+  grid-template-columns: repeat(5,auto);
+  grid-gap:10px;
+  list-style-type: none;
+  text-align:center;
+  width:70vw;
+  justify-content:end;
+  margin-right:2rem;
+}
+
+.nav-links{
+  color:white;
+  text-decoration:none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover{
+  background-color:white;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+.fa-bars{
+  color: blue;
+}
+
+.nav-links-mobile{
+  display:none;
+}
+
+.menu-icon{
+  display:none;
+}
+
+/*
+.navbar-options{
+  align-items :right;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  float: right;
+  color: white;
+  border-right: 1px solid #bbb;
+}
+*/

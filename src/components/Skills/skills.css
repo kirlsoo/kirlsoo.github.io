@@ -1,0 +1,63 @@
+ @import "../../global.css";
+ 
+ .Skills{
+     background-color: #e69da8;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .Skills h1{
+     font-size: 50px;
+ }
+
+ .Skills ul{
+     margin: 10px;
+     padding: 0;
+     list-style: none;
+     display: flex;
+ }
+
+
+ .Skills .container{
+     width: 70%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .Skills .container .item{
+     width: 220px;
+     height: 150px;
+     border-radius: 20px;
+     border: 1px solid black;
+     margin: 10px 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    color: white;
+    position: relative;
+    transition: all .5s ease;
+    cursor: pointer;
+ }
+
+ .Skills .container .item h3{
+     position: absolute;
+     font-size: 20px;
+}
+
+.Skills .container .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+.Skills .container .item:hover img{
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+

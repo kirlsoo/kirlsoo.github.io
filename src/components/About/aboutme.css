@@ -1,0 +1,99 @@
+.about{
+    background-color:  #3a3741ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .slider{
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
+.about .slider .container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .slider .container .item{
+    width: 700px;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .slider .container .item .left{
+    flex: 4;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .slider .container .item .leftContainer{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about .slider .container .item .leftContainer .imgContainer{
+    content: url(../../images/KL_logoWback.png);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid cyan;
+}
+
+.LogoinSlide1{
+    width: 25px;
+}
+
+.about .slider .container .item .leftContainer h2{
+    font-size: 20px;
+}
+
+.about .slider .container .item .leftContainer p{
+    font-size: 13px;
+}
+
+.about .slider .container .item .leftContainer span{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.about .slider .container .item .right{
+    flex:8;
+    height: 100%;
+    background-color: #4a586dff;
+}
+
+.about .slider .container .item .rightContainer{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.about .slider .container .item .rightContainer p{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: #fdfff7ff;
+}
+
+
