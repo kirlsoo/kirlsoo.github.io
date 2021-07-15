@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../../css/navbar.css';
+import '../Navbar/navbar.css';
 import '@fontsource/roboto';
 import '../../images/KL_logo.png';
 
@@ -24,7 +24,10 @@ class NavBar extends Component {
 								<a className="NavLink" href="#about">Contact Me</a>
 							</li>
 							<li  activeStyle>
-								<a className="NavLink" href="#social">Socials</a>
+								<a className="NavLink" href="#about">Resume</a>
+							</li>
+							<li  activeStyle>
+								<a className="NavLink" href="#social">Contact Me</a>
 							</li>
 						</ul>
 					</div>

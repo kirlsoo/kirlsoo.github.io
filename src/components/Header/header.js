@@ -1,5 +1,5 @@
 import { init } from 'ityped';
-import '../../css/header.css';
+import '../Header/header.css';
 import React, { useEffect,useRef } from 'react';
  
 

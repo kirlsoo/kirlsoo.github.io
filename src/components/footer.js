@@ -15,6 +15,7 @@ const Footer = () => {
 			</section>
 			<div className="copyright">
 				Copyright &copy; 2021. Kristen Luciano
+				Made with Reactjs
 			</div>
 		</div>
 	);
