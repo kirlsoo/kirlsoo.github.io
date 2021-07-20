@@ -1,0 +1,15 @@
+/*color palette
+Main (60%) $black-coral: #4a586dff;
+Secondary (30%) $baby-powder: #fdfff7ff;
+Accent color (10%) $pacific-blue: #22aed1ff;
+
+:root {
+     desktop vars 
+}
+@media screen and (max-width: 479px) {
+    @content
+   :root { 
+        mobile vars 
+   }
+}
+*/

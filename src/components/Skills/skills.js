@@ -1,46 +1,53 @@
 import React, { Component, useEffect, useState } from 'react';
 import SkillsList from '../SkillsList/skillsList';
 import '../Skills/skills.css';
-import {pythonSkills, cSkills,javaSkills} from "../../data";
+import {featuredSkills, progLangSkills,webDevSkills,mobDevSkills,otherSkills} from "../../data";
 
 function Skills() {
-        const [selected,setSelected] = useState("python");
+        const [selected,setSelected] = useState("featured");
         const [data,setData] = useState([]);
         const list = [
             {
-                id:"python",
-                title:"Python",
+                id:"featured",
+                title:"Featured",
             },
             {
-                id:"c",
-                title:"C",
+                id:"progLang",
+                title:"Programming Languages",
             },
             {
-                id:"java",
-                title:"Java",
+                id:"webDev",
+                title:"Web Development",
             },
             {
-                id:"html",
-                title:"HTML",
+                id:"mobDev",
+                title:"Mobile Development",
+            },
+            {
+                id:"others",
+                title:"Others",
             },
         ];
 
         useEffect(()=>{
             switch(selected){
-                case "python":
-                    setData(pythonSkills);
+                case "featured":
+                    setData(featuredSkills);
                     break;
-                case "c":
-                    setData(cSkills);
+                case "progLang":
+                    setData(progLangSkills);
                     break;
-                case "java":
-                    setData(javaSkills);
+                case "webDev":
+                    setData(webDevSkills);
                      break;
-                case "html":
-                    setData(cSkills);
+                case "mobDev":
+                    setData(mobDevSkills);
+                    break;
+                case "others":
+                    setData(otherSkills);
                     break;
                 default:
-                    setData(pythonSkills);
+                    setData(featuredSkills);
             }
         },[selected])
 

@@ -4,9 +4,8 @@ import NavBar from './components/Navbar/navbar';
 import AboutMe from './components/About/aboutme';
 import Footer from './components/footer';
 import Skills from './components/Skills/skills';
+import Contact from './components/Contact/contact';
 
-
- 
 //Adding material UI: import { Button } from '@material-ui/core';
 
 
@@ -18,7 +17,7 @@ function App() {
         <Header/> 
         <AboutMe/>
         <Skills/>
-        <Footer/>
+        <Contact/>
       </div>
     </div>
   );

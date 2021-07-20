@@ -21,13 +21,10 @@ class NavBar extends Component {
 								<a className="NavLink" href="#about">About Me</a>
 							</li>
 							<li  activeStyle>
-								<a className="NavLink" href="#about">Contact Me</a>
+								<a className="NavLink" href="#skills">Skills</a>
 							</li>
 							<li  activeStyle>
-								<a className="NavLink" href="#about">Resume</a>
-							</li>
-							<li  activeStyle>
-								<a className="NavLink" href="#social">Contact Me</a>
+								<a className="NavLink" href="#contact">Contact Me</a>
 							</li>
 						</ul>
 					</div>
